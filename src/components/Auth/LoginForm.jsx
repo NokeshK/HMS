@@ -130,19 +130,6 @@ export function LoginForm({ onNavigateToRegister }) {
             </button>
           </div>
 
-          <div className="mt-6">
-            <div className="text-center">
-              <p className="text-sm text-gray-600 dark:text-gray-400">
-                Demo Credentials:
-              </p>
-              <div className="mt-2 space-y-1 text-xs text-gray-500 dark:text-gray-500">
-                <p>Doctor: doctor@medvault.com</p>
-                <p>Patient: patient@medvault.com</p>
-                <p>Admin: admin@medvault.com</p>
-                <p>Password: any</p>
-              </div>
-            </div>
-          </div>
 
                      <div className="mt-6 text-center">
              <p className="text-sm text-gray-600 dark:text-gray-400">
