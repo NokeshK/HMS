@@ -53,17 +53,9 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                // Assuming deployment to a server with SSH
-                // Replace with your deployment script
-                sh '''
-                ssh user@your-server.com << EOF
-                cd /path/to/deployment
-                docker-compose down
-                docker pull nokeshk/hms-backend:latest
-                docker pull nokeshk/hms-frontend:latest
-                docker-compose up -d
-                EOF
-                '''
+                sh 'docker-compose down'
+                sh 'docker-compose pull'
+                sh 'docker-compose up -d'
             }
         }
 

@@ -2,9 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
+    image: nokeshk/hms-backend:latest
     ports:
       - "8081:8081"
     environment:
@@ -20,9 +18,7 @@ services:
       - app-network
 
   frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: nokeshk/hms-frontend:latest
     ports:
       - "80:80"
     depends_on:
