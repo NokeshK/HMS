@@ -4,8 +4,8 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('docker-hub-credentials')
         GITHUB_CREDENTIALS = credentials('github-credentials')
-        DOCKER_IMAGE_BACKEND = 'nokeshk/hms-backend'
-        DOCKER_IMAGE_FRONTEND = 'nokeshk/hms-frontend'
+        DOCKER_IMAGE_BACKEND = 'nokesh14/hms-backend'
+        DOCKER_IMAGE_FRONTEND = 'nokesh14/hms-frontend'
         DOCKER_TAG = "${env.BUILD_NUMBER}"
     }
 
