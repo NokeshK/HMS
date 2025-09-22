@@ -1,5 +1,6 @@
 -- Insert sample users
 INSERT INTO users (email, password, name, role) VALUES
+('admin@medvault.com', '$2a$10$8K3W5Q8X9Y2Z4A6B8C0D2E4F6G8H0J2K4L6M8N0P2Q4R6S8T0V2W', 'Admin User', 'ADMIN'),
 ('dr.sarah.johnson@medvault.com', '$2a$10$8K3W5Q8X9Y2Z4A6B8C0D2E4F6G8H0J2K4L6M8N0P2Q4R6S8T0V2W', 'Dr. Sarah Johnson', 'DOCTOR'),
 ('dr.michael.chen@medvault.com', '$2a$10$8K3W5Q8X9Y2Z4A6B8C0D2E4F6G8H0J2K4L6M8N0P2Q4R6S8T0V2W', 'Dr. Michael Chen', 'DOCTOR'),
 ('dr.amanda.rodriguez@medvault.com', '$2a$10$8K3W5Q8X9Y2Z4A6B8C0D2E4F6G8H0J2K4L6M8N0P2Q4R6S8T0V2W', 'Dr. Amanda Rodriguez', 'DOCTOR'),
