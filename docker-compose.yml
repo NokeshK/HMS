@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: nokesh14/hms-backend:latest
+    build: ./backend
     ports:
       - "8082:8081"
     environment:
